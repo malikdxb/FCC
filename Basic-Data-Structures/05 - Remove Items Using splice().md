@@ -44,13 +44,9 @@ console.log(sumOfTen([2, 5, 1, 5, 2, 1]));
 ### Solution
 
 ```javascript
-function sumOfTen(arr) {
-  // change code below this line
-  arr.splice(1,2);
+const arr = [2, 4, 5, 1, 7, 5, 2, 1];
+// Only change code below this line
+ arr.splice(1,4);
   // change code above this line
-  return arr.reduce((a, b) => a + b);
-}
 
-// do not change code below this line
-console.log(sumOfTen([2, 5, 1, 5, 2, 1]));
-```
+console.log(arr);
